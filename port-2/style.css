@@ -1,0 +1,126 @@
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ADD8E6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4e9eb9;
+}
+
+/* Add a large font size and bold style to the page titles */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Add a small font size and italic style to the page subtitles */
+h2, h3, h4, h5, h6 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* Add a light blue color to the page titles */
+h1, h2, h3, h4, h5, h6 {
+  color: #ADD8E6;
+}
+
+h1.display-4 {
+  color: #333 !important;
+  font-weight: 1000;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+}
+
+/* Add a large margin between the navbar and the rest of the content */
+.navbar + .container {
+  margin-top: 3em;
+}
+
+/* Add a large margin between the cards */
+.card + .card {
+  margin-top: 3em;
+}
+
+/* Add a light blue color to the card titles */
+.card-title {
+  color: #ADD8E6;
+}
+
+/* Add a small margin and light grey color to the card text */
+.card-text {
+  margin-top: 1em;
+  color: #333;
+}
+
+/* Add a small margin and light grey color to the card links */
+.card a {
+  margin-top: 1em;
+  color: #cccccc;
+}
+
+/* Add a large margin between the contact section and the footer */
+#contact + footer {
+  margin-top: 3em;
+}
+
+/* Add a dark blue color to the footer */
+footer {
+  background-color: #0c2e8a;
+  width: 100vw;
+  text-align: center;
+}
+
+/* Add a white color to the footer text */
+footer {
+  color: white;
+}
+
+/* Add a small margin and light grey color to the footer links */
+footer a {
+  margin-top: 1em;
+  color: #cccccc;
+}
+
+form + footer {
+  margin-top: 3em;
+}
+
+/* Add a white background and dark blue text color to the form */
+form {
+  background-color: white;
+  color: #0c2e8a;
+}
+
+/* Add a light blue color to the form input backgrounds */
+form input, form textarea {
+  background-color: #ADD8E6;
+}
+
+/* Add a dark blue color to the form label texts */
+form label {
+  color: #0c2e8a;
+}
+
+/* Add a dark blue color to the form submit button */
+form button[type="submit"] {
+  background-color: #0c2e8a;
+}
